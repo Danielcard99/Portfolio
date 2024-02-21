@@ -37,10 +37,17 @@ section.obrigado h1 {
   margin-bottom: 10px;
 }
 
+section.obrigado p {
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 section.obrigado a {
   color: black;
   width: 100%;
-  font-size: 20px;
+  font-size: 22px;
   text-decoration: none;
 }
 
