@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 2%;
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+section.obrigado {
+  background-image: url(../image/banner-2143726_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  color: black;
+}
+
+section.obrigado h1 {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+section.obrigado p {
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section.obrigado a {
+  color: black;
+  width: 100%;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+section.obrigado a:hover {
+  color: #555;
+}
